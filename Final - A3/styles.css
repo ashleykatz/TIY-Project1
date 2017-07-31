@@ -1,0 +1,141 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+p{
+  line-height: 2;
+}
+.container{
+  margin: auto;
+  max-width: 900px;
+  padding: 40px 20px;
+}
+.logo {
+  width: 50px;
+}
+.navigation{
+  display: inline-block;
+}
+.navigation ul{
+  margin: 0;
+  padding: 0;
+}
+.navigation li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.navigation a{
+  color: #FF512F;
+  cursor: pointer;
+  font-weight: bold;
+  margin:0 12px 0 0;
+  padding: 4px 2px;
+  text-decoration: none;
+}
+.navigation a.active,
+.navigation a:hover{
+  border-bottom: #fbc2c3;
+}
+/* Header */
+header{
+  padding: 15px;
+  display: inline-block;
+}
+header .primary-navigation.navigation a{
+  text-transform: uppercase;
+  font-size: 14px;
+  float: left;
+}
+header .secondary-navigation.navigation a{
+  margin: auto;
+  float: right;
+}
+nav img{
+  height: 15px;
+}
+
+/* Feature */
+.feature{
+  background: linear-gradient(to left, #FF512F, #DD2476);
+  box-shadow: 0 10px 0 0 (rgba(0,0,0,0.05) inset);
+  color: #FFFFFF;
+}
+.feature .backtoshoes{
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  clear: left;
+}
+.feature img{
+  width: 70%;
+  float: left;
+}
+.feature .button{
+  background: #ffffff;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  display:inline-block;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 13px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ff512f;
+}
+.feature h1{
+  font-size: 32px;
+}
+.feature a{
+  color: #cc3700;
+}
+.feature span{
+  color: #cc3700;
+  text-transform: uppercase;
+  font-size: 15px;
+  display: block;
+}
+.feature .price{
+  font-size: 18px;
+}
+.feature .container{
+  text-align: right;
+}
+/* CONTENT */
+.content{
+  color: #696969;
+}
+/* RECOMMENDED */
+.products{
+  background: linear-gradient(to left, #FF512F, #DD2476);
+}
+.products h2{
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  text-align: center;
+}
+.products .container{
+  padding: 0 20px;
+}
+.products .product{
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  width: 27%;
+  padding: 30px 50px 10px;
+  border-radius: 6px;
+  display: inline-block;
+}
+.products .product img{
+  width:70%;
+}
+.products .product h3{
+  color: #FFFFFF;
+  margin: 10px 0;
+  font-size: 26px;
+  float: left;
+}
+.smallbold{
+  display: block;
+  font-size: 15px;
+  text-transform: uppercase;
+}
